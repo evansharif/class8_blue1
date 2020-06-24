@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Header start*/
+header{
+    background-color: #121B2A;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%;  
+    
+}
+.nav{
+    width: 70%;
+    float: right;
+     margin-top: 30px;
+}
+
+.nav ul{
+    float: right;  
+    
+    
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+   
+}
+.nav ul li a{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:0px 20px;
+    overflow: hidden;
+}
+.nav ul li:last-child a{
+    padding-right: 0px;
+}
+
+/*Header End*/
